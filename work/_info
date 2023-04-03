@@ -1,0 +1,310 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dE:/ModelSim 10.5/project/PROJECT01/CLOCK_ALARM
+vadder_4bit
+Z0 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!i10b 1
+!s100 ?9WFBmFbF5DT1XTcoD:F[2
+I@`lP:F>>]I<cDeCBmOQmM3
+!s105 adder_4bit_sv_unit
+S1
+Z2 dE:/ModelSim 10.5/project/PROJECT01/ENCRYPT
+w1679835156
+8E:/ModelSim 10.5/project/PROJECT01/ENCRYPT/adder_4bit.sv
+FE:/ModelSim 10.5/project/PROJECT01/ENCRYPT/adder_4bit.sv
+L0 1
+Z3 OL;L;10.5;63
+Z4 !s108 1679895263.000000
+!s107 E:/ModelSim 10.5/project/PROJECT01/ENCRYPT/adder_4bit.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|E:/ModelSim 10.5/project/PROJECT01/ENCRYPT/adder_4bit.sv|
+!i113 0
+Z5 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z6 tCvgOpt 0
+vadder_8bit
+R0
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 BimDRzch386M;n0VQDnLh0
+IZHYUbGIENFP`iRo1z<0NN0
+!s105 adder_8bit_sv_unit
+S1
+R2
+w1679835158
+8E:/ModelSim 10.5/project/PROJECT01/ENCRYPT/adder_8bit.sv
+FE:/ModelSim 10.5/project/PROJECT01/ENCRYPT/adder_8bit.sv
+L0 1
+R3
+R4
+!s107 E:/ModelSim 10.5/project/PROJECT01/ENCRYPT/adder_8bit.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|E:/ModelSim 10.5/project/PROJECT01/ENCRYPT/adder_8bit.sv|
+!i113 0
+R5
+R6
+vbrcomp
+R0
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 R_a0JTJXnKGeoc5md2]9A1
+ICnhHhM2hdQDXGj=l?[>012
+!s105 brcomp_sv_unit
+S1
+R2
+w1679680252
+8E:/ModelSim 10.5/project/PROJECT01/ENCRYPT/brcomp.sv
+FE:/ModelSim 10.5/project/PROJECT01/ENCRYPT/brcomp.sv
+L0 1
+R3
+R4
+!s107 E:/ModelSim 10.5/project/PROJECT01/ENCRYPT/brcomp.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|E:/ModelSim 10.5/project/PROJECT01/ENCRYPT/brcomp.sv|
+!i113 0
+R5
+R6
+vcipher
+R0
+DXx4 work 10 myfunction 0 22 DZ4NA4^d]GF8EE?G50mmn0
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 eMi]Mz:QHYBQ^fmDib;mg1
+Ibodm15lJkhSnibfYRaKSi1
+!s105 cipher_sv_unit
+S1
+R2
+w1679895257
+8E:\ModelSim 10.5\project\PROJECT01\ENCRYPT\cipher.sv
+FE:\ModelSim 10.5\project\PROJECT01\ENCRYPT\cipher.sv
+L0 1
+R3
+R4
+!s107 E:\ModelSim 10.5\project\PROJECT01\ENCRYPT\cipher.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|E:\ModelSim 10.5\project\PROJECT01\ENCRYPT\cipher.sv|
+!i113 0
+R5
+R6
+vcsm_1bit
+R0
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 <z=:jnbKPdGX[2O;C_B0F2
+IjZ_5G;FYkzUJ;cFHKf5C00
+!s105 csm_1bit_sv_unit
+S1
+R2
+w1679812670
+8E:/ModelSim 10.5/project/PROJECT01/ENCRYPT/csm_1bit.sv
+FE:/ModelSim 10.5/project/PROJECT01/ENCRYPT/csm_1bit.sv
+L0 1
+R3
+R4
+!s107 E:/ModelSim 10.5/project/PROJECT01/ENCRYPT/csm_1bit.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|E:/ModelSim 10.5/project/PROJECT01/ENCRYPT/csm_1bit.sv|
+!i113 0
+R5
+R6
+vcsm_5bit
+R0
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 ;<ec5EXkRcQ=O2`Q5I`1_3
+Idd<EJWhLa?OTF_XBk@l<C3
+!s105 csm_5bit_sv_unit
+S1
+R2
+w1679812675
+8E:/ModelSim 10.5/project/PROJECT01/ENCRYPT/csm_5bit.sv
+FE:/ModelSim 10.5/project/PROJECT01/ENCRYPT/csm_5bit.sv
+L0 1
+R3
+Z7 !s108 1679895264.000000
+!s107 E:/ModelSim 10.5/project/PROJECT01/ENCRYPT/csm_5bit.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|E:/ModelSim 10.5/project/PROJECT01/ENCRYPT/csm_5bit.sv|
+!i113 0
+R5
+R6
+vdiv_8bit
+R0
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 gb9zIF1QHlH;cc7VLLCDz3
+Ih4PIHEmi1PL6cS3jAY1UL0
+!s105 div_8bit_sv_unit
+S1
+R2
+w1679894587
+8E:/ModelSim 10.5/project/PROJECT01/ENCRYPT/div_8bit.sv
+FE:/ModelSim 10.5/project/PROJECT01/ENCRYPT/div_8bit.sv
+L0 1
+R3
+R7
+!s107 E:/ModelSim 10.5/project/PROJECT01/ENCRYPT/div_8bit.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|E:/ModelSim 10.5/project/PROJECT01/ENCRYPT/div_8bit.sv|
+!i113 0
+R5
+R6
+vFA
+R0
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 S;_CPi;AomXFVb[e=9N>S1
+IbX<`eM>:kAnYN18nl3_Nl2
+!s105 FA_sv_unit
+S1
+R2
+w1679659282
+8E:/ModelSim 10.5/project/PROJECT01/ENCRYPT/FA.sv
+FE:/ModelSim 10.5/project/PROJECT01/ENCRYPT/FA.sv
+L0 1
+R3
+R7
+!s107 E:/ModelSim 10.5/project/PROJECT01/ENCRYPT/FA.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|E:/ModelSim 10.5/project/PROJECT01/ENCRYPT/FA.sv|
+!i113 0
+R5
+R6
+n@f@a
+vmul_4bit
+R0
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 @1ab3TeVn7ZOF_P5hC`<Q1
+I>75mUV>an@dcCP017e^MZ2
+!s105 mul_4bit_sv_unit
+S1
+R2
+w1679835152
+8E:/ModelSim 10.5/project/PROJECT01/ENCRYPT/mul_4bit.sv
+FE:/ModelSim 10.5/project/PROJECT01/ENCRYPT/mul_4bit.sv
+L0 1
+R3
+R7
+!s107 E:/ModelSim 10.5/project/PROJECT01/ENCRYPT/mul_4bit.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|E:/ModelSim 10.5/project/PROJECT01/ENCRYPT/mul_4bit.sv|
+!i113 0
+R5
+R6
+Xmyfunction
+R0
+VDZ4NA4^d]GF8EE?G50mmn0
+r1
+!s85 0
+31
+!i10b 1
+!s100 067:GCXma5A>T0M:2:zLX0
+IDZ4NA4^d]GF8EE?G50mmn0
+S1
+R2
+w1679894599
+8E:\ModelSim 10.5\project\PROJECT01\ENCRYPT\myfunction.sv
+FE:\ModelSim 10.5\project\PROJECT01\ENCRYPT\myfunction.sv
+L0 1
+R3
+R7
+!s107 E:\ModelSim 10.5\project\PROJECT01\ENCRYPT\myfunction.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|E:\ModelSim 10.5\project\PROJECT01\ENCRYPT\myfunction.sv|
+!i113 0
+R5
+R6
+vsub_4bit
+R0
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 i=VCFH:hzFajmBFn8`fEO3
+I086NdhjoPLknoLOlVB^@Z3
+!s105 sub_4bit_sv_unit
+S1
+R2
+w1679677691
+8E:/ModelSim 10.5/project/PROJECT01/ENCRYPT/sub_4bit.sv
+FE:/ModelSim 10.5/project/PROJECT01/ENCRYPT/sub_4bit.sv
+L0 1
+R3
+R7
+!s107 E:/ModelSim 10.5/project/PROJECT01/ENCRYPT/sub_4bit.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|E:/ModelSim 10.5/project/PROJECT01/ENCRYPT/sub_4bit.sv|
+!i113 0
+R5
+R6
+vsub_8bit
+R0
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 nZ1DD8]mKRom_:eBLR^9b1
+IIo5o8b]FV1mC?mLf?AUR;2
+!s105 sub_8bit_sv_unit
+S1
+R2
+w1679835161
+8E:/ModelSim 10.5/project/PROJECT01/ENCRYPT/sub_8bit.sv
+FE:/ModelSim 10.5/project/PROJECT01/ENCRYPT/sub_8bit.sv
+L0 1
+R3
+R7
+!s107 E:/ModelSim 10.5/project/PROJECT01/ENCRYPT/sub_8bit.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|E:/ModelSim 10.5/project/PROJECT01/ENCRYPT/sub_8bit.sv|
+!i113 0
+R5
+R6
+vtop
+R0
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 R<UXR?i4DUoa1dnNL;zo<2
+ISeOB6gPQN;:h?;@^E8I3U3
+!s105 top_sv_unit
+S1
+R2
+w1679894944
+8E:\ModelSim 10.5\project\PROJECT01\ENCRYPT\top.sv
+FE:\ModelSim 10.5\project\PROJECT01\ENCRYPT\top.sv
+L0 2
+R3
+R4
+!s107 E:\ModelSim 10.5\project\PROJECT01\ENCRYPT\top.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|E:\ModelSim 10.5\project\PROJECT01\ENCRYPT\top.sv|
+!i113 0
+R5
+R6
