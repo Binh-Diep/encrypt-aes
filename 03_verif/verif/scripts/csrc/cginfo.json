@@ -1,0 +1,111 @@
+{
+    "MlibObjs": {},
+    "stat": {
+        "ru_self_cgstart": {
+            "ru_utime_sec": 0.024996000000000001,
+            "ru_stime_sec": 0.035993999999999998,
+            "ru_nivcsw": 55,
+            "ru_minflt": 20832,
+            "ru_maxrss_kb": 61532,
+            "ru_nvcsw": 8,
+            "ru_majflt": 0
+        },
+        "nQuads": 453,
+        "ru_childs_cgstart": {
+            "ru_utime_sec": 0.004999,
+            "ru_stime_sec": 0.005999,
+            "ru_nivcsw": 16,
+            "ru_minflt": 3662,
+            "ru_maxrss_kb": 18544,
+            "ru_nvcsw": 8,
+            "ru_majflt": 0
+        },
+        "nMops": 1285,
+        "ru_childs_end": {
+            "ru_utime_sec": 0.004999,
+            "ru_stime_sec": 0.0069979999999999999,
+            "ru_nivcsw": 18,
+            "ru_minflt": 4192,
+            "ru_maxrss_kb": 18980,
+            "ru_nvcsw": 9,
+            "ru_majflt": 0
+        },
+        "totalObjSize": 96775,
+        "Frontend(%)": 86.207966890843252,
+        "ru_self_end": {
+            "ru_utime_sec": 0.028995,
+            "ru_stime_sec": 0.041993000000000003,
+            "ru_nivcsw": 55,
+            "ru_minflt": 23140,
+            "ru_maxrss_kb": 67720,
+            "ru_nvcsw": 9,
+            "ru_majflt": 0
+        },
+        "outputSizePerQuad": 213.63134657836645,
+        "CodeGen(%)": 13.792033109156748,
+        "peak_mem_kb": 221256
+    },
+    "CurCompileModules": [
+        "...MASTER...",
+        "testtop"
+    ],
+    "PrevCompiledModules": {
+        "testtop": {
+            "bi8zs_d": {
+                "bytes": 22538,
+                "checksum": 0,
+                "mod": "testtop",
+                "out": "bi8zs_d.o",
+                "archive": "archive.3/_prev_archive_1.a",
+                "mode": 4
+            }
+        },
+        "...MASTER...": {
+            "amcQw_d": {
+                "bytes": 7371,
+                "checksum": 0,
+                "mod": "...MASTER...",
+                "mode": 4,
+                "out": "objs/amcQw_d.o"
+            }
+        }
+    },
+    "NameTable": {
+        "testtop": [
+            "testtop",
+            "bi8zs",
+            "module",
+            1
+        ],
+        "...MASTER...": [
+            "SIM",
+            "amcQw",
+            "module",
+            2
+        ]
+    },
+    "CompileStrategy": "fullobj",
+    "CurCompileUdps": {},
+    "PEModules": [],
+    "SIMBData": {
+        "out": "amcQwB.o",
+        "bytes": 96775,
+        "archive": "archive.3/_19050_archive_1.a"
+    },
+    "LVLData": [
+        "SIM"
+    ],
+    "CompileProcesses": [
+        "cgproc.19050.json"
+    ],
+    "Misc": {
+        "csrc_abs": "/home/albert/Desktop/Lab1_adder/03_verif/verif/scripts/csrc",
+        "cwd": "/home/albert/Desktop/Lab1_adder/03_verif/verif/scripts",
+        "csrc": "csrc",
+        "archive_dir": "archive.3",
+        "default_output_dir": "csrc",
+        "daidir": "simv.daidir",
+        "daidir_abs": "/home/albert/Desktop/Lab1_adder/03_verif/verif/scripts/simv.daidir"
+    },
+    "CompileStatus": "Successful"
+}

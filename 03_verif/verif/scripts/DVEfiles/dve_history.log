@@ -1,0 +1,140 @@
+# Preference setting overrides
+gui_create_pref_key -category {Globals} -key {load_detail_for_funcov} -value_type {bool} -value {false}
+gui_create_pref_category -category {schem_obj_name}
+gui_create_pref_key -category {schem_obj_name} -key {show_cell_and_pin_with_symbol_name} -value_type {bool} -value {false}
+gui_create_pref_key -category {schem_pin_hc} -key {textExtFont} -value_type {string} -value {Helvetica,10,-1,5,50,0,0,0,0,0}
+
+# State setting overrides
+gui_state_default_create -off -ini
+gui_set_state_value -category Globals -key recent_databases -value {{gui_open_db -file /home/albert/Desktop/Lab1_adder/03_verif/verif/scripts/verilog.dump -design V1} {gui_open_db -file /home/albert/Desktop/Lab1_adder/03_verif/verif/scripts/verilog.dump.vpd -design V1} {gui_open_db -file /home/albert/BTL_code/labthi/lab5/testbench/lab5.vpd -design V1} {gui_open_db -file /home/albert/BTL_code/labALU/ALU.vpd -design V2} {gui_open_db -file /home/albert/BTL_code/labALU/ALU.vpd -design V1}}
+gui_set_state_value -category Globals -key recent_sessions -value {{gui_load_session -ignore_errors -file /home/albert/BTL_code/lab1_1/design/DVEfiles/dve_checkpoint_60051_1.tcl}}
+gui_set_state_value -category Layout -key child_console_size_x -value 1711
+gui_set_state_value -category Layout -key child_console_size_y -value 163
+gui_set_state_value -category Layout -key child_data_coltype -value 97
+gui_set_state_value -category Layout -key child_data_colvalue -value 84
+gui_set_state_value -category Layout -key child_data_colvariable -value 176
+gui_set_state_value -category Layout -key child_data_size_x -value 329
+gui_set_state_value -category Layout -key child_data_size_y -value 548
+gui_set_state_value -category Layout -key child_driver_size_x -value 499
+gui_set_state_value -category Layout -key child_driver_size_y -value 179
+gui_set_state_value -category Layout -key child_hier_col3 -value {-1}
+gui_set_state_value -category Layout -key child_hier_colhier -value 251
+gui_set_state_value -category Layout -key child_hier_colpd -value 0
+gui_set_state_value -category Layout -key child_hier_coltype -value 109
+gui_set_state_value -category Layout -key child_hier_size_x -value 333
+gui_set_state_value -category Layout -key child_hier_size_y -value 548
+gui_set_state_value -category Layout -key child_memory_docknewline -value false
+gui_set_state_value -category Layout -key child_memory_pos_x -value {-2}
+gui_set_state_value -category Layout -key child_memory_pos_y -value {-15}
+gui_set_state_value -category Layout -key child_memory_size_x -value 132
+gui_set_state_value -category Layout -key child_memory_size_y -value 179
+gui_set_state_value -category Layout -key child_schematic_docknewline -value false
+gui_set_state_value -category Layout -key child_schematic_pos_x -value {-2}
+gui_set_state_value -category Layout -key child_schematic_pos_y -value {-15}
+gui_set_state_value -category Layout -key child_schematic_size_x -value 688
+gui_set_state_value -category Layout -key child_schematic_size_y -value 394
+gui_set_state_value -category Layout -key child_source_docknewline -value false
+gui_set_state_value -category Layout -key child_source_pos_x -value {-2}
+gui_set_state_value -category Layout -key child_source_pos_y -value {-15}
+gui_set_state_value -category Layout -key child_source_size_x -value 1052
+gui_set_state_value -category Layout -key child_source_size_y -value 543
+gui_set_state_value -category Layout -key child_wave_colname -value 238
+gui_set_state_value -category Layout -key child_wave_colvalue -value 238
+gui_set_state_value -category Layout -key child_wave_left -value 480
+gui_set_state_value -category Layout -key child_wave_right -value 1171
+gui_set_state_value -category Layout -key main_pos_x -value 4
+gui_set_state_value -category Layout -key main_pos_y -value 62
+gui_set_state_value -category Layout -key main_size_x -value 1715
+gui_set_state_value -category Layout -key main_size_y -value 854
+gui_set_state_value -category Layout -key stand_schematic_child_docknewline -value false
+gui_set_state_value -category Layout -key stand_schematic_child_pos_x -value {-2}
+gui_set_state_value -category Layout -key stand_schematic_child_pos_y -value {-15}
+gui_set_state_value -category Layout -key stand_schematic_child_size_x -value 504
+gui_set_state_value -category Layout -key stand_schematic_child_size_y -value 186
+gui_set_state_value -category Layout -key stand_schematic_top_pos_x -value 298
+gui_set_state_value -category Layout -key stand_schematic_top_pos_y -value 167
+gui_set_state_value -category Layout -key stand_schematic_top_size_x -value 797
+gui_set_state_value -category Layout -key stand_schematic_top_size_y -value 566
+gui_set_state_value -category Layout -key stand_source_child_docknewline -value false
+gui_set_state_value -category Layout -key stand_source_child_pos_x -value {-2}
+gui_set_state_value -category Layout -key stand_source_child_pos_y -value {-15}
+gui_set_state_value -category Layout -key stand_source_child_size_x -value 128
+gui_set_state_value -category Layout -key stand_source_child_size_y -value 177
+gui_set_state_value -category Layout -key stand_source_top_pos_x -value 139
+gui_set_state_value -category Layout -key stand_source_top_pos_y -value 167
+gui_set_state_value -category Layout -key stand_source_top_size_x -value 638
+gui_set_state_value -category Layout -key stand_source_top_size_y -value 566
+gui_set_state_value -category Layout -key stand_wave_child_docknewline -value false
+gui_set_state_value -category Layout -key stand_wave_child_pos_x -value {-2}
+gui_set_state_value -category Layout -key stand_wave_child_pos_y -value {-15}
+gui_set_state_value -category Layout -key stand_wave_child_size_x -value 1661
+gui_set_state_value -category Layout -key stand_wave_child_size_y -value 707
+gui_set_state_value -category Layout -key stand_wave_top_pos_x -value 36
+gui_set_state_value -category Layout -key stand_wave_top_pos_y -value 61
+gui_set_state_value -category Layout -key stand_wave_top_size_x -value 1692
+gui_set_state_value -category Layout -key stand_wave_top_size_y -value 854
+gui_set_state_value -category Sim -key linkC1toSim -value false
+gui_create_state_key -category FindDialog -key m_pMatchCase -value_type bool -value false
+gui_create_state_key -category FindDialog -key m_pMatchWord -value_type bool -value false
+gui_create_state_key -category FindDialog -key m_pUseCombo -value_type string -value {}
+gui_create_state_key -category FindDialog -key m_pWrapAround -value_type bool -value true
+gui_create_state_key -category Widget_History -key TopLevel.1|qt_left_dock|DockWnd2|DLPane.1|pages|Data.1|hbox|textfilter -value_type string -value {k1 *k1 {}}
+gui_create_state_key -category SearchDialog -key MatchCase -value_type bool -value false
+gui_create_state_key -category SearchDialog -key MatchWord -value_type bool -value true
+gui_create_state_key -category SearchDialog -key SearchMode -value_type string -value Wildcards
+gui_create_state_key -category SearchDialog -key UseCombo -value_type bool -value true
+gui_state_default_create -off
+
+# Begin command logging
+gui_open_db -file /home/albert/Desktop/Lab1_adder/03_verif/verif/scripts/verilog.dump -design V1
+gui_list_select -id Hier.1 -current_item_name testtop -current_item_type Scope  -selected  { testtop   }
+gui_list_select -id Data.1 -selected  { {testtop.X[3:0]}   }
+gui_list_select -id Data.1 -selected  { {testtop.X[3:0]}  {testtop.Y[3:0]}  {testtop.S[3:0]}  testtop.Cout   }
+gui_open_window Wave
+gui_list_add -id Wave.1 -from Data.1 { {testtop.X[3:0]} {testtop.Y[3:0]} {testtop.S[3:0]} testtop.Cout } -insertionbar
+gui_wv_zoom_timerange -id  Wave.1 0 398
+gui_wv_zoom_timerange -id  Wave.1 0 383
+gui_wv_zoom_timerange -id  Wave.1 0 227
+gui_wv_zoom_timerange -id  Wave.1 0 383
+gui_marker_move -id  Wave.1 C1 24
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_zoom -window Wave.1 -factor 2
+gui_wv_scroll_hslidermove -id  Wave.1 0
+gui_list_select -id Wave.1 -selected  { {testtop.X[3:0]}   }
+gui_list_select -id Wave.1 -selected  { {testtop.X[3:0]}  {testtop.Y[3:0]}  {testtop.S[3:0]}  testtop.Cout   }
+gui_list_select -id Wave.1 -selected  { testtop.Cout   }
+gui_list_select -id Wave.1 -selected  { {testtop.X[3:0]}  {testtop.Y[3:0]}  {testtop.S[3:0]}  testtop.Cout   }
+gui_copy_selected -id Wave.1
+gui_paste_clipboard -id Wave.1
+gui_list_select -id Wave.1 -selected  { {testtop.X[3:0]}   }
+gui_list_select -id Wave.1 -selected  { {testtop.X[3:0]}  {testtop.Y[3:0]}  {testtop.S[3:0]}  testtop.Cout   }
+gui_list_select -id Wave.1 -selected  { {testtop.Y[3:0]}   }
+gui_list_select -id Wave.1 -selected  { testtop.Cout   }
+gui_list_move  -id  Wave.1    -sid  Wave.1   -after {testtop.S[3:0]} {{testtop.Cout}} 
+gui_list_move  -id  Wave.1    -sid  Wave.1   -after {testtop.S[3:0]} {{testtop.Cout}} 
+gui_list_move  -id  Wave.1    -sid  Wave.1   -after {testtop.S[3:0]} {{testtop.Cout}} 
+gui_list_move  -id  Wave.1    -sid  Wave.1   -after {testtop.Y[3:0]} {{testtop.Cout}} 
+gui_list_select -id Wave.1 -selected  { testtop.Cout  {testtop.S[3:0]}   }
+gui_list_select -id Wave.1 -selected  { {New Group}   }
+gui_list_select -id Wave.1 -selected  { {testtop.S[3:0]}   }
+gui_list_select -id Wave.1 -selected  { testtop.Cout   }
+gui_list_select -id Wave.1 -selected  { testtop.Cout  {testtop.S[3:0]}   }
+gui_expr_create -name CoutS -type Verilog {{Cout,S[3:0]}} -scope testtop
+gui_list_add -id Wave.1 -after [gui_list_get_insertion_bar -id Wave.1] EXP:CoutS -insertionbar
+gui_list_select -id Wave.1 -selected  { {testtop.X[3:0]}   }
+gui_list_select -id Wave.1 -selected  { EXP:CoutS   }
+gui_list_select -id Wave.1 -selected  { testtop.Cout   }
+gui_delete_selected -id  Wave.1
+gui_list_select -id Wave.1 -selected  { {testtop.S[3:0]}   }
+gui_delete_selected -id  Wave.1
+gui_list_select -id Wave.1 -selected  { {testtop.Y[3:0]}   }
+gui_list_select -id Wave.1 -selected  { EXP:CoutS   }
+gui_list_move  -id  Wave.1    -sid  Wave.1   -after {testtop.Y[3:0]} {{EXP:CoutS}} 
+gui_list_select -id Wave.1 -selected  { {testtop.X[3:0]}  {testtop.Y[3:0]}  EXP:CoutS   }
+gui_list_set_selected_property -id Wave.1 -radix decimal
+gui_list_select -id Wave.1 -selected  {  }
+gui_marker_move -id  Wave.1 C1 11
+gui_marker_move -id  Wave.1 C1 6
+gui_marker_move -id  Wave.1 C1 25
+gui_marker_move -id  Wave.1 C1 29

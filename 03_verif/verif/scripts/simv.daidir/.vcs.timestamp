@@ -1,0 +1,102 @@
+0 
+34
++itf+/home/albert/MyPrograms/synopsys/M-2017.03-SP2/linux64/lib/vcsdp_lite.tab
++no_notifier
++nospecify
++notimingcheck
++v2k
++vcs+dumpvars
++vcsd1
++vpi
+-Mamsrun=
+-Masflags=
+-Mcc=gcc
+-Mcfl= -pipe -fPIC -O -I/home/albert/MyPrograms/synopsys/M-2017.03-SP2/include
+-Mcplusplus=g++
+-Mcrt0=
+-Mcrtn=
+-Mcsrc=
+-Mexternalobj=
+-Mldflags= -rdynamic
+-Mobjects= /home/albert/MyPrograms/synopsys/M-2017.03-SP2/linux64/lib/libvirsim.so /home/albert/MyPrograms/synopsys/M-2017.03-SP2/linux64/lib/liberrorinf.so /home/albert/MyPrograms/synopsys/M-2017.03-SP2/linux64/lib/libsnpsmalloc.so
+-Mout=simv
+-Msaverestoreobj=/home/albert/MyPrograms/synopsys/M-2017.03-SP2/linux64/lib/vcs_save_restore_new.o
+-Msyslibs=-ldl
+-Mvcsaceobjs=
+-Mxcflags= -pipe -fPIC -I/home/albert/MyPrograms/synopsys/M-2017.03-SP2/include
+-Xvcs_run_simv=1
+-debug_access+r+w
+-f /home/albert/Desktop/Lab1_adder/03_verif/verif/scripts/rtl.f
+-full64
+-gen_obj
+-l
+-picarchive
+/home/albert/Desktop/Lab1_adder/03_verif/sim_result/sim.log
+/home/albert/Desktop/Lab1_adder/03_verif/verif/sv/testtop.v
+/home/albert/MyPrograms/synopsys/M-2017.03-SP2/linux64/bin/vcs1
+51
+sysc_uni_pwd=/home/albert/Desktop/Lab1_adder/03_verif/verif/scripts
+XDG_SESSION_COOKIE=bb95ea87782d0a3e6c8885280000000d-1632385319.933728-971191384
+XAUTHORITY=/var/run/gdm/auth-for-albert-U6Kkiq/database
+WORKAREA=/home/albert/Desktop/Lab1_adder
+WINDOWPATH=1
+VMR_MODE_FLAG=64
+VCS_TARGET_ARCH=amd64
+VCS_MODE_FLAG=64
+VCS_LOG_FILE=/home/albert/Desktop/Lab1_adder/03_verif/sim_result/sim.log
+VCS_HOME=/home/albert/MyPrograms/synopsys/M-2017.03-SP2
+VCS_DEPTH=0
+VCS_ARG_ADDED_FOR_TMP=1
+VCS_ARCH_OVERRIDE=linux
+VCS_ARCH=linux64
+USERNAME=albert
+UNAME=/bin/uname
+TOOL_HOME=/home/albert/MyPrograms/synopsys/M-2017.03-SP2/linux64
+SYNOPSYS=/home/albert/MyPrograms/synopsys/L-2016.03-SP1
+SSH_AUTH_SOCK=/tmp/keyring-aNa6g5/socket.ssh
+SSH_ASKPASS=/usr/libexec/openssh/gnome-ssh-askpass
+SNPS_VCS_CLANG_PATH=/fs/src/interfaces/LLVM_Project/QSCM/opt/llvm-3.9.1/linux64
+SESSION_MANAGER=local/unix:@/tmp/.ICE-unix/3025,unix/unix:/tmp/.ICE-unix/3025
+SCRNAME=vcs
+SCRIPT_NAME=vcs
+QTLIB=/usr/lib64/qt-3.3/lib
+QTINC=/usr/lib64/qt-3.3/include
+QTDIR=/usr/lib64/qt-3.3
+OVA_UUM=0
+ORBIT_SOCKETDIR=/tmp/orbit-albert
+MGLS_LICENSE_FILE=/home/albert/MyPrograms/synopsys/L-2016.03-SP1/Synopsys.dat
+MFLAGS=
+MAKELEVEL=1
+MAKEFLAGS=
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+LC_HOME=/home/albert/MyPrograms/synopsys/M-2016.12
+LC_ALL=C
+HISTCONTROL=ignoredups
+G_BROKEN_FILENAMES=1
+GTK_RC_FILES=/etc/gtk/gtkrc:/home/albert/.gtkrc-1.2-gnome2
+GNOME_KEYRING_SOCKET=/tmp/keyring-aNa6g5/socket
+GNOME_KEYRING_PID=3015
+GNOME_DESKTOP_SESSION_ID=this-is-deprecated
+GIO_LAUNCHED_DESKTOP_FILE_PID=3470
+GIO_LAUNCHED_DESKTOP_FILE=/home/albert/Desktop/gnome-terminal.desktop
+GDM_LANG=en_US.UTF-8
+GDM_KEYBOARD_LAYOUT=us
+GDMSESSION=gnome
+DESKTOP_SESSION=gnome
+DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-QJdKuduEaM,guid=f0a5fcd848a1860f6e2bf4b400000030
+CVS_RSH=ssh
+COLORTERM=gnome-terminal
+0
+6
+1632387888 /home/albert/Desktop/Lab1_adder/03_verif/verif/sv/testtop.v
+1632386256 /home/albert/Desktop/Lab1_adder/02_rtl/adder_4bit.v
+1632385815 /home/albert/Desktop/Lab1_adder/02_rtl/adder_1bit.v
+1632387058 /home/albert/Desktop/Lab1_adder/02_rtl/lab_rtl.flist
+1632386523 /home/albert/Desktop/Lab1_adder/03_verif/verif/scripts/rtl.f
+1503457497 /home/albert/MyPrograms/synopsys/M-2017.03-SP2/linux64/lib/vcsdp_lite.tab
+4
+0 
+1503460271 /home/albert/MyPrograms/synopsys/M-2017.03-SP2/linux64/lib/libvirsim.so
+1503459205 /home/albert/MyPrograms/synopsys/M-2017.03-SP2/linux64/lib/liberrorinf.so
+1503459178 /home/albert/MyPrograms/synopsys/M-2017.03-SP2/linux64/lib/libsnpsmalloc.so
+1632395164 simv.daidir

@@ -1,0 +1,32 @@
+ 
+****************************************
+Report : area
+Design : cipher
+Version: L-2016.03-SP1
+Date   : Tue Apr 25 03:40:57 2023
+****************************************
+
+Information: Updating design information... (UID-85)
+Warning: Design 'cipher' contains 1 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+Library(s) Used:
+
+    scadv12_cln65lp_hvt_ff_1p32v_0c (File: /mnt/hgfs/Projects/AES_test/04_synth/lib/scadv12_cln65lp_hvt_ff_1p32v_0c.db)
+
+Number of ports:                          518
+Number of nets:                         22518
+Number of cells:                        22129
+Number of combinational cells:          19521
+Number of sequential cells:              2608
+Number of macros/black boxes:               0
+Number of buf/inv:                       4366
+Number of references:                      55
+
+Combinational area:              53351.039386
+Buf/Inv area:                     6355.680236
+Noncombinational area:           27283.199841
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (No wire load specified)
+
+Total cell area:                 80634.239227
+Total area:                 undefined
+1

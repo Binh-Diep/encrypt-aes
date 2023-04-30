@@ -1,0 +1,18 @@
+
+Warning-[MXIR-W] VCS-MX build is required
+  Please make sure that vlogan is from the intended build.
+
+Command: vlogan -full64 -work lab_rtl +v2k -f /home/albert/Desktop/Lab1_adder/03_verif/verif/scripts/rtl.f \
+-l /home/albert/Desktop/Lab1_adder/03_verif/sim_result/rtl_vlog.log +define+VCS
+                         Chronologic VCS (TM)
+       Version M-2017.03-SP2_Full64 -- Thu Sep 23 04:06:03 2021
+               Copyright (c) 1991-2017 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file '/home/albert/Desktop/Lab1_adder/02_rtl/adder_1bit.v'
+Parsing design file '/home/albert/Desktop/Lab1_adder/02_rtl/adder_4bit.v'
+CPU time: .046 seconds to compile

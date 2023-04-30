@@ -1,0 +1,38 @@
+#!/bin/bash
+
+#============== SET DIRECTORY =================
+set search_path "./../lib"
+set osearch_path [ concat $search_path \
+                ]
+#============== ADD THE LIBRARY ================
+set target_library "scadv12_cln65lp_hvt_ff_1p32v_0c.db"
+set link_library "* $target_library"
+set synthesis_library standard.sldb
+
+#============= ANALYSE DESIGN ==================
+analyze -format verilog "./../../02_rtl/adder_1bit.v"
+analyze -format verilog "./../../02_rtl/adder_4bit.v"
+elaborate adder_4bit
+current_design adder_4bit
+
+#============= CONSTRAIN FOR DESIGN ============
+#create_clock -name clk -period 1000 {clk}
+#set_input_delay -max 10 -clock clk  [all_inputs] 
+#set_input_delay -min 1 -clock clk  [all_inputs] 
+#set_output_delay -max 10 -clock clk [all_outputs] 
+#set_output_delay -min 1 -clock clk [all_outputs] 
+
+
+#============= SYNTHESIZE========================
+compile_ultra
+
+#============= REPORT PERFORMANCE ===============
+report_area > ./../report/report.area
+report_timing > ./../report/report.timing
+report_constraint > ./../report/report.constraint
+report_qor > ./../report/report.qor
+write -f ddc -o ./../report/report.ddc
+write -format verilog -hierarchy -output ./../report/lab_synth.netlist.v
+write_sdf ./../report/report.sdf
+
+quit

@@ -1,0 +1,60 @@
+Command: vcs +vcs+dumpvars -full64 +v2k -R -debug_access+r+w +no_notifier +notimingcheck \
++nospecify -f /home/albert/Desktop/Lab1_adder/03_verif/verif/scripts/rtl.f /home/albert/Desktop/Lab1_adder/03_verif/verif/sv/testtop.v \
+-l /home/albert/Desktop/Lab1_adder/03_verif/sim_result/sim.log
+                         Chronologic VCS (TM)
+       Version M-2017.03-SP2_Full64 -- Thu Sep 23 04:06:04 2021
+               Copyright (c) 1991-2017 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file '/home/albert/Desktop/Lab1_adder/02_rtl/adder_1bit.v'
+Parsing design file '/home/albert/Desktop/Lab1_adder/02_rtl/adder_4bit.v'
+Parsing design file '/home/albert/Desktop/Lab1_adder/03_verif/verif/sv/testtop.v'
+Top Level Modules:
+       testtop
+No TimeScale specified
+Starting vcs inline pass...
+1 unique modules to generate
+	However, due to incremental compilation, no re-compilation is necessary.
+make[1]: Entering directory `/home/albert/Desktop/Lab1_adder/03_verif/verif/scripts/csrc' \
+
+rm -f _csrc*.so pre_vcsobj_*.so share_vcsobj_*.so
+ld -shared  -o .//../simv.daidir//_csrc0.so objs/amcQw_d.o 
+rm -f _csrc0.so
+if [ -x ../simv ]; then chmod -x ../simv; fi
+g++  -o ../simv   -Wl,-rpath-link=./ -Wl,-rpath='$ORIGIN'/simv.daidir/ -Wl,-rpath=./simv.daidir/ \
+-Wl,-rpath='$ORIGIN'/simv.daidir//scsim.db.dir  -rdynamic     _19050_archive_1.so \
+_prev_archive_1.so _csrc0.so  SIM_l.o  _csrc0.so     rmapats_mop.o rmapats.o rmar.o \
+rmar_nd.o  rmar_llvm_0_1.o rmar_llvm_0_0.o          /home/albert/MyPrograms/synopsys/M-2017.03-SP2/linux64/lib/libzerosoft_rt_stubs.so \
+/home/albert/MyPrograms/synopsys/M-2017.03-SP2/linux64/lib/libvirsim.so /home/albert/MyPrograms/synopsys/M-2017.03-SP2/linux64/lib/liberrorinf.so \
+/home/albert/MyPrograms/synopsys/M-2017.03-SP2/linux64/lib/libsnpsmalloc.so    /home/albert/MyPrograms/synopsys/M-2017.03-SP2/linux64/lib/libvcsnew.so \
+/home/albert/MyPrograms/synopsys/M-2017.03-SP2/linux64/lib/libsimprofile.so /home/albert/MyPrograms/synopsys/M-2017.03-SP2/linux64/lib/libuclinative.so \
+/home/albert/MyPrograms/synopsys/M-2017.03-SP2/linux64/lib/vcs_tls.o   -Wl,-whole-archive \
+/home/albert/MyPrograms/synopsys/M-2017.03-SP2/linux64/lib/libvcsucli.so -Wl,-no-whole-archive \
+/home/albert/MyPrograms/synopsys/M-2017.03-SP2/linux64/lib/vcs_save_restore_new.o \
+-ldl  -lc -lm -lpthread -ldl 
+../simv up to date
+make[1]: Leaving directory `/home/albert/Desktop/Lab1_adder/03_verif/verif/scripts/csrc' \
+
+Command: /home/albert/Desktop/Lab1_adder/03_verif/verif/scripts/./simv +vcs+dumpvars +v2k +no_notifier +notimingcheck +nospecify -a /home/albert/Desktop/Lab1_adder/03_verif/sim_result/sim.log
+Chronologic VCS simulator copyright 1991-2017
+Contains Synopsys proprietary information.
+Compiler version M-2017.03-SP2_Full64; Runtime version M-2017.03-SP2_Full64;  Sep 23 04:06 2021
+                   1 Nhi phan: X = 0000, Y = 0000, Cout = 0, S = 0000
+                   1 Thap phan: X =  0, Y =  0, {Cout,S} =  0
+                  11 Nhi phan: X = 0110, Y = 1100, Cout = 1, S = 0010
+                  11 Thap phan: X =  6, Y = 12, {Cout,S} = 18
+                  21 Nhi phan: X = 1100, Y = 0101, Cout = 1, S = 0001
+                  21 Thap phan: X = 12, Y =  5, {Cout,S} = 17
+                  31 Nhi phan: X = 1010, Y = 0010, Cout = 0, S = 1100
+                  31 Thap phan: X = 10, Y =  2, {Cout,S} = 12
+$finish called from file "/home/albert/Desktop/Lab1_adder/03_verif/verif/sv/testtop.v", line 16.
+$finish at simulation time                  140
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 140
+CPU Time:      0.210 seconds;       Data structure size:   0.0Mb
+Thu Sep 23 04:06:04 2021
+CPU time: .093 seconds to compile + .006 seconds to elab + .131 seconds to link + .228 seconds in simulation

@@ -1,0 +1,43 @@
+#!/bin/bash
+
+#============== SET DIRECTORY =================
+set search_path "./../lib"
+set osearch_path [ concat $search_path \
+                ]
+#============== ADD THE LIBRARY ================
+set target_library "scadv12_cln65lp_hvt_ff_1p32v_0c.db"
+set link_library "* $target_library"
+set synthesis_library standard.sldb
+
+#============= ANALYSE DESIGN ==================
+analyze -format sverilog "./../../02_rtl/adder_4bit.sv"
+analyze -format sverilog "./../../02_rtl/adder_8bit.sv"
+analyze -format sverilog "./../../02_rtl/brcomp.sv"
+analyze -format sverilog "./../../02_rtl/csm_1bit.sv"
+analyze -format sverilog "./../../02_rtl/csm_5bit.sv"
+analyze -format sverilog "./../../02_rtl/div_8bit.sv"
+analyze -format sverilog "./../../02_rtl/FA.sv"
+analyze -format sverilog "./../../02_rtl/mul_4bit.sv"
+analyze -format sverilog "./../../02_rtl/myfunction.sv"
+analyze -format sverilog "./../../02_rtl/sub_4bit.sv"
+analyze -format sverilog "./../../02_rtl/sub_8bit.sv"
+analyze -format sverilog "./../../02_rtl/typeAES.sv"
+analyze -format sverilog "./../../02_rtl/cipher.sv"
+elaborate cipher
+current_design cipher
+
+#============= CONSTRAIN FOR DESIGN ============
+
+#============= SYNTHESIZE========================
+compile_ultra
+
+#============= REPORT PERFORMANCE ===============
+report_area > ./../report/report.area
+report_timing > ./../report/report.timing
+report_constraint > ./../report/report.constraint
+report_qor > ./../report/report.qor
+write -f ddc -o ./../report/report.ddc
+write -format verilog -hierarchy -output ./../report/lab_synth.netlist.v
+write_sdf ./../report/report.sdf
+
+quit

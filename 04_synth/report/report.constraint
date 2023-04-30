@@ -1,0 +1,23 @@
+ 
+****************************************
+Report : constraint
+Design : cipher
+Version: L-2016.03-SP1
+Date   : Tue Apr 25 03:40:58 2023
+****************************************
+
+    Constraint                                     Slack
+    ----------------------------------------------------
+    max_leakage_power                           -1930574.25
+                                                          (VIOLATED)
+
+
+    Constraint                                       Cost
+    -----------------------------------------------------
+    max_transition                                   0.00 (MET)
+    max_capacitance                                  0.00 (MET)
+    max_leakage_power                            1930574.25
+                                                          (VIOLATED)
+
+
+1

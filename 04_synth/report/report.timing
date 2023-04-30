@@ -1,0 +1,34 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : cipher
+Version: L-2016.03-SP1
+Date   : Tue Apr 25 03:40:58 2023
+****************************************
+
+ # A fanout number of 1000 was used for high fanout net computations.
+
+Operating Conditions: ff_1p32v_0c   Library: scadv12_cln65lp_hvt_ff_1p32v_0c
+Wire Load Model Mode: top
+
+  Startpoint: cipher_text_o_reg[127]
+              (rising edge-triggered flip-flop)
+  Endpoint: cipher_text_o[127]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  cipher_text_o_reg[127]/CK (DFFRPQX0P5MA12TH)            0.00 #     0.00 r
+  cipher_text_o_reg[127]/Q (DFFRPQX0P5MA12TH)             0.17       0.17 f
+  cipher_text_o[127] (out)                                0.00       0.17 f
+  data arrival time                                                  0.17
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+1

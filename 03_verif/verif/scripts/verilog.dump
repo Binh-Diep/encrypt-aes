@@ -1,0 +1,143 @@
+$date
+	Thu Sep 23 04:06:04 2021
+$end
+
+$version
+	Synopsys VCS version M-2017.03-SP2_Full64
+$end
+
+$timescale
+	1s
+$end
+
+$comment Csum: 1 6e118b657bed1e19 $end
+
+
+$scope module testtop $end
+$var reg 4 ! X [3:0] $end
+$var reg 4 " Y [3:0] $end
+$var wire 4 # S [3:0] $end
+$var wire 1 $ Cout $end
+
+$scope module adder_inst $end
+$var wire 4 ! X [3:0] $end
+$var wire 4 " Y [3:0] $end
+$var wire 4 # S [3:0] $end
+$var wire 1 $ Cout $end
+$var wire 1 % C0 $end
+$var wire 1 & C1 $end
+$var wire 1 ' C2 $end
+
+$scope module A0 $end
+$var wire 1 ( X $end
+$var wire 1 ) Y $end
+$var wire 1 * Cin $end
+$var wire 1 + S $end
+$var wire 1 % Cout $end
+$upscope $end
+
+
+$scope module A1 $end
+$var wire 1 , X $end
+$var wire 1 - Y $end
+$var wire 1 % Cin $end
+$var wire 1 . S $end
+$var wire 1 & Cout $end
+$upscope $end
+
+
+$scope module A2 $end
+$var wire 1 / X $end
+$var wire 1 0 Y $end
+$var wire 1 & Cin $end
+$var wire 1 1 S $end
+$var wire 1 ' Cout $end
+$upscope $end
+
+
+$scope module A3 $end
+$var wire 1 2 X $end
+$var wire 1 3 Y $end
+$var wire 1 ' Cin $end
+$var wire 1 4 S $end
+$var wire 1 $ Cout $end
+$upscope $end
+
+$upscope $end
+
+$upscope $end
+
+$enddefinitions $end
+
+#0
+$dumpvars
+0%
+0&
+0'
+0$
+x(
+x,
+x/
+x2
+x)
+x-
+x0
+x3
+x+
+x.
+x1
+x4
+b0000 #
+b0000 !
+b0000 "
+0*
+$end
+0(
+0,
+0/
+02
+0)
+0-
+00
+03
+0+
+0.
+01
+04
+#10
+b0110 !
+1,
+1/
+b1100 "
+10
+13
+1'
+b0010 #
+1.
+1$
+#20
+b1100 !
+0,
+12
+b0101 "
+1)
+03
+b0001 #
+1+
+0.
+#30
+b1010 !
+1,
+0/
+b0010 "
+0)
+1-
+00
+0'
+b0100 #
+0+
+11
+1&
+0$
+b1100 #
+14
